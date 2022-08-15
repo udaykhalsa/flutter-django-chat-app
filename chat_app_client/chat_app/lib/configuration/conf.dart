@@ -7,8 +7,7 @@ class HttpService {
 
   String userToken = 'none';
 
-  // final baseUrl = 'http://10.0.2.2:8000/';
-  final baseUrl = 'http://100.69.65.163:8001/';
+  final baseUrl = 'http://10.0.2.2:8000/';
 
   Future<Response> registerUser(String endPoint, userData) async {
     late var header = {
