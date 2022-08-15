@@ -17,11 +17,12 @@ We can add/remove freinds send/receive/decline friend requests.
         * On Linux/macOs should be same as windows
     * Change IP to the machine's IP where you're running project if flutter not able to send request to server
         * In <flutter_root>/lib/configuration/conf.dart -> baseUrl 
-
+        & <flutter_root>/lib/configuration/websocket_model.dart -> baseUrl 
 ## Features ##
     * Register/Login User
     * Add/Remove Friends
     * Send message to a user
 
 ## Known Issues ##
+    * Connect to Server via Websocket.
     * Not able to send/receive messages via websocket directly on both sides. Sometimes it sends messages, sometimes it doesn't.
