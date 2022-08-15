@@ -31,7 +31,7 @@ class NotificationController {
 
     try {
       channel = IOWebSocketChannel.connect(
-        Uri.parse('ws://100.69.65.163:8001/chat/$userID/'),
+        Uri.parse('ws://10.0.2.2:8001/chat/$userID/'),
         pingInterval: const Duration(seconds: 10),
       );
     } on Exception catch (e) {
