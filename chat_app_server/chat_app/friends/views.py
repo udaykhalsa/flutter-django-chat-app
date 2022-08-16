@@ -19,7 +19,7 @@ class SearchUserRequestView(APIView):
 
     def get(self, request, username):
         users = User.objects.filter(
-            Q(username__contains=username) | Q(username=username)).values('username', 'name', 'profile_picture', 'user_uid').exclude(user=request.user)
+            Q(username__contains=username) | Q(username=username)).values('username', 'name', 'profile_picture', 'user_uid')
 
         response_content = {
             'status': True,
