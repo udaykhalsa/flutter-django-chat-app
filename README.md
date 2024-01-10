@@ -1,7 +1,7 @@
 # Flutter Chat App #
  
 This project is backed by Django Rest Framework and Django Channels.
-We can add/remove freinds send/receive/decline friend requests.
+We can add/remove friends send/receive/decline friend requests.
 
 ## Project Requirements ##
 * Python v3.10+
